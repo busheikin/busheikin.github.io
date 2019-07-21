@@ -11,14 +11,46 @@
   --font-family:      'Caudex', serif;
 }
 
+/* ------------------------ */
+/* Relevant normalization   */
+/* ------------------------ */
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Remove the margin in all browsers. */
+body {
+  margin: 0;
+}
+
+/* Remove the gray background on active links in IE 10. */
+a {
+  background-color: transparent;
+}
+
+/* Add the correct font weight in Chrome, Edge, and Safari. */
+strong {
+  font-weight: bolder;
+}
 
 /* Browser Upgrade Prompt via HTML5 Boilerplate v7.2.0 | MIT License | https://html5boilerplate.com/ */
 
 .browserupgrade {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #000000e3;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 40px;
 }
 
 
