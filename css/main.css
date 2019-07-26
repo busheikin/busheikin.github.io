@@ -125,14 +125,36 @@ a:hover {
   grid-column-end: 3;
   font-size: .8rem;
   text-align: center;
-  padding: .5rem;
+  padding: .25rem;
   color: rgba(255,255,255,.5);
 }
 
-.footer a {
-  color: rgba(255,255,255,.5);
+.footer-content {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-top: .25rem;
+}
+
+.footer-content p {
+  margin: 0;
+  display: inline-block;
+  margin-left: .25rem;
+  margin-right: .25rem;
 }
 
 .footer a:hover {
   color: var(--text-color);
+}
+
+.github-icon {
+  height: 14px;
+  width: 14px;
+}
+
+.github-link img {
+  opacity: 0.5;
+}
+.github-link:hover img {
+  opacity: 1;
 }
